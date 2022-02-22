@@ -1,0 +1,183 @@
+/* Configuração ------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    color: rgb(253, 253, 253);
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*  Background */
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagens/file.png);
+    background-size: cover;
+
+}
+
+.cor-text-secundario{
+    color: #20ff02;
+}
+
+/* Cabeçalho */
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.nav-list{
+    display: flex;  
+    list-style: none;
+}
+
+.nav-list a{
+    color: white;
+    padding: 10px;
+}
+
+#logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+.boas-vindas{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.boas-vindas h1{
+    margin: 20px 0px;
+    font-size: 50px;
+}
+
+.boas-vindas h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #0affff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #0affff;
+    font-weight: bold;
+    color: black;
+}
+
+/*  Quem Somos * */
+#QuemSomos {
+    width: 100%;
+    background-color: #313030;
+    padding: 100px 10px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#quemsomos img {
+    height: auto;
+    width: 200px;
+}
+.sobre-texto{
+    width: 400px;
+}
+
+.sobre-texto h2 {
+    color: #111111;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.sobre-texto p {
+  color: #131213;
+  letter-spacing: 2px;
+  font-size: 26px;
+  line-height: 27px;
+  margin-bottom: 40px;
+  text-align: justify left;
+}
+
+/*  Serviços e Prdutos */
+
+.servico {
+    width: 100%;
+    background-color: #101010;
+}
+
+.servico .titulo{
+    padding-top: 30px;
+}
+
+.servico .titulo h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Card */
+.box {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    width: 330px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #191919;
+    margin-bottom: 20px;
+}
+.card:hover {
+    box-shadow: 0px 4px 8px 0px  #aa4be0;
+}
+.card i {
+    font-size: 40px;
+    color: #ffb20a;
+    margin: 20px 0px;
+}
+
+.card h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.card p{
+    padding: 20px;
+    color: #fdfdfd;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+/* Rodapé */
+footer {
+ background-color: #101010;
+ width: 100%;
+ text-align: center;
+ padding: 20px 0px;
+}   
